@@ -22,13 +22,20 @@ Personal starter kit based on Laravel 12 + Vue 3 + Inertia.js. Includes authenti
 ## Getting Started
 
 ```bash
+# Via Laravel installer (recommended)
+laravel new my-app --using=calesj/laravel-vue-starter-kit
+
+# Or via Composer
 composer create-project calesj/laravel-vue-starter-kit my-app
+```
+
+```bash
 cd my-app
 npm install
 npm run dev
 ```
 
-The `composer create-project` command will automatically:
+Both methods will automatically:
 
 1. Copy `.env.example` to `.env`
 2. Generate the application key
