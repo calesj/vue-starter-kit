@@ -16,7 +16,7 @@ class ForgotPasswordController extends Controller
 {
     public function create(Request $request): Response
     {
-        return Inertia::render('user-password/create', [
+        return Inertia::render('Auth/ResetPassword', [
             'email' => $request->email,
             'token' => $request->route('token'),
         ]);

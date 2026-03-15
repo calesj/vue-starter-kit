@@ -1,11 +1,13 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/blank-vue-starter-kit",
+    "name": "calesj/laravel-vue-starter-kit",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "description": "Personal Laravel 12 + Vue 3 + Inertia.js starter kit with authentication.",
     "keywords": [
         "laravel",
-        "framework"
+        "vue",
+        "inertia",
+        "starter-kit"
     ],
     "license": "MIT",
     "require": {
